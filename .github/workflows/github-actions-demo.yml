@@ -16,4 +16,4 @@ jobs:
         run: ls -la  # Verify that the file is present
 
       - name: Run API Tests
-        run: newman run "Restful Booker BVT.postman_environment.json" -e Production.postman_environment.json
+        run: newman run "Restful Booker BVT.postman_collection.json" -e Production.postman_environment.json
